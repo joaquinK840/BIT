@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+.header-content{
+    background-color:#bd754e;
+    border-radius: 30%;
+    width: 100%;
+    margin-top: 0px ;
+}
+
+
+.swiper-button-prev::after{
+    font-size: 25px;
+}
+.swiper-button-next::after{
+    font-size: 25px;
+}
+
+.swiper-button-next{
+    color: #DB241b;
+}
+.swiper-button-prev{
+    color: #DB241b;
+}
+
+.swiper-pagination-bullet{
+    background-color: #D3D2D2;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #DB241B;
+}
+
+
+.socials{
+    display: flex;
+}
+
+.social{
+    margin: 0 10px;
+    height: 40px;
+    width:40px;
+    border: 1px solid #DB241b;
+    border-radius: 50%;
+    background-color: #DB241b;
+}
+
+.social:hover{
+    background-color: #640804;
+}
+
+.social img{
+    margin: 8px 0 0 10px;
+}
+
+
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.swiper-slide{
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+}
+
+.slider-txt{
+    margin-left: 85px;
+    width: 50%;
+}
+
+
+.slider-txt h1{
+    font-size: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider-txt p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.botones{
+    margin-top: 50px;
+    
+}
+
+.botones a {
+    text-decoration: none;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid #db241b;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.btn-1:hover{
+    background-color: #db241b;
+
+}
+
+.slider-img{
+    width: 50%;
+}
+
+.slider-img img {
+    border-radius: 50%;
+    margin-right: 225px;
+    width: 550px;
+}
+
+.horario{
+    padding: 20px 0px;
+    background-color:   #FCEDCC;
+}
+
+.horario-info h2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 2%;
+    font-size: 75px;
+    color: #000000;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.horario-txt {
+
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 2%;
+
+}
+
+.txt {
+    color: #0b0000;
+}
+
+.txt h4 {
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 30px;
+}
+
+.txt p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.map {
+    filter:  invert(99%) contrast(93%);
+    padding: 0px  2% ;
+    margin: 20px 0px;
+    border-radius: 5%;
+}
+
+.footer {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links h4 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.links ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+@media(max-width : 991px){
+
+
+    .slider {
+        flex-direction: column;
+    }
+
+    .slider-txt {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px
+    }
+
+    .slider-txt h1 {
+        font-size: 50px;
+    }
+
+    .slider-txt p {
+        font-size: 16px;
+    }
+
+    .btn-1{
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .slider-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .slider-img img {
+        margin-right: 0px;
+        width: 300px;
+    }
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets, .swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -7px
+    }
+
+    .tabs{
+        padding: 50px, 30px;
+    }
+
+
+    .info {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .info-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-img img {
+        width: 400px;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+
+    .info-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-txt h2 {
+        font-size: 50px;
+
+    }
+
+    .info-txt p {
+        font-size: 16px;
+    }
+
+    .btn-1{
+        font-size: 16px;
+    }
+
+    .horario {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .horario-info h2 {
+        font-size: 50px;
+        margin-bottom: 15px;
+
+    }
+
+    .horario-txt {
+        flex-direction: column;
+
+    }
+
+    .socials{
+        justify-content: center;
+    }
+
+    .social img {
+        margin: 8px 0 0 0;
+    }
+
+
+    .footer {
+        padding:30 px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links h4 {
+        margin: 25px 0px 10px 0px;
+
+    }
+
+}
+
+@media (max-width: 426px ) {
+    .header-content{
+        border-radius: 5%;  
+    }   
+}
